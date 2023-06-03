@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap');
+.sidebar{
+  background-color: white;
+  color: #222;
+}
+body {
+  background: linear-gradient(to bottom, #f5d90b, #16ab74);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}

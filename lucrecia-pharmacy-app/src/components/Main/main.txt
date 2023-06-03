@@ -1,0 +1,7 @@
+posibles modulos main 
+    Loadzone: zona de carga de productos
+        Cards: sin desarrollo
+    Sidebar: sistema de filtrado de productos 
+        corregir marcas y props
+    destacados: espacio para productos en oferta, similares a los buscados o con publicidad
+        sin desarrollo
