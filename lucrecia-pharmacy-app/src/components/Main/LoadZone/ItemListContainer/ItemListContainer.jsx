@@ -3,7 +3,8 @@ import Item from './item/item'
 import { Link } from 'react-router-dom';
 
 // eslint-disable-next-line react/prop-types
-const ItemListContainer = ({ categoria, filter }) => {
+const ItemListContainer = ({ categoria  }) => {
+  {/*, stock ,price ,brands*/}
   const [productos, setProductos] = useState([]);
 
   useEffect(() => {
@@ -22,8 +23,10 @@ const ItemListContainer = ({ categoria, filter }) => {
   };
 
   const filteredProductos = categoria
-    ? productos.filter((producto) => producto.categoria.id === categoria)
-    : [];
+  ? categoria === "all"
+    ? productos
+    : productos.filter((producto) => producto.categoria.id === categoria)
+  : [];
 
   return (
     <div className="container row">
