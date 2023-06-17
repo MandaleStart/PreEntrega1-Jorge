@@ -1,13 +1,13 @@
 const Categories = () => {
   const categories = [
-    'Cosmética',
+    'Cosmetica',
     'Cuidado Personal',
     'Medicamentos',
     'Maternidad',
     'Productos Naturales',
-    'Perfumería',
-    'Protección Solar',
-    'Joyería',
+    'Perfumeria',
+    'Proteccion Solar',
+    'Joyeria',
     'Marcas Destacadas'
   ];
 
@@ -27,7 +27,7 @@ const Categories = () => {
         <ul className="navbar-nav">
           {categories.map((category, index) => (
             <li className="nav-item" key={index}>
-              <a className="nav-link" href={formatCategory(category) + ".html"}>{category}</a>
+              <a className="nav-link" href={formatCategory(category)}>{category}</a>
             </li>
           ))}
         </ul>

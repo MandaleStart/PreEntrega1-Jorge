@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
 import Card from './Card/Card';
-
+import { env } from 'import.meta';
 const LoadZone = () => {
     const [productos, setProductos] = useState([]);
 
     useEffect(() => {
-        fetch(REACT_APP_URL_PROD, {
+        fetch(env.REACT_APP_URL_PROD, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
