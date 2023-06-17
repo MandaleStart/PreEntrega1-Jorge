@@ -16,28 +16,29 @@ import Perfumeria from './views/Categories/perfumeria';
 import SolarCare from './views/Categories/proteccion-solar';
 import ProductosNaturales from './views/Categories/productos-naturales';
 import ErrorPage from './views/ErrorPage';
+import ItemDetailContainer from './components/Main/LoadZone/ItemListContainer/ItemDetailContainer/ItemDetailContainer'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (<BrowserRouter>
     <Navbar />
-
     <Routes>
       <Route path='/' element={<Main />}></Route>
       <Route path='/contacto' element={<Contact />}></Route>
       <Route path='/favoritos' element={<FavPage />}></Route>
       <Route path='/usuario' element={<UserPage />}></Route>
       <Route path='/carrito' element={<CartPage />}></Route>
-      <Route path='/cosmetica' element={<Cosmetica />}></Route>
-      <Route path='/cuidado-personal' element={<PersonalCare />}></Route>
-      <Route path='/joyeria' element={<Joyeria />}></Route>
-      <Route path='/Marcas-Destacadas'element={<Brands />}></Route>
-      <Route path='/maternidad' element={<Maternidad />}></Route>
-      <Route path='/medicamentos' element={<Medicamentos />}></Route>
-      <Route path='/perfumeria' element={<Perfumeria />}></Route>
-      <Route path='/productos-naturales' element={<ProductosNaturales />}></Route>
-      <Route path='/proteccion-solar' element={<SolarCare />}></Route>
-      <Route path='/carro'element={<CartPage />}></Route>
+      <Route path='/category/cosmetica' element={<Cosmetica />}></Route>
+      <Route path='/category/cuidado-personal' element={<PersonalCare />}></Route>
+      <Route path='/category/joyeria' element={<Joyeria />}></Route>
+      <Route path='/category/Marcas-Destacadas'element={<Brands />}></Route>
+      <Route path='/category/maternidad' element={<Maternidad />}></Route>
+      <Route path='/category/medicamentos' element={<Medicamentos />}></Route>
+      <Route path='/category/perfumeria' element={<Perfumeria />}></Route>
+      <Route path='/category/productos-naturales' element={<ProductosNaturales />}></Route>
+      <Route path='/category/proteccion-solar' element={<SolarCare />}></Route>
+      <Route path='/item/:id'element={<ItemDetailContainer />}></Route>
+      
       <Route path='*' element={<ErrorPage />}></Route>
     </Routes>
     <Footer />

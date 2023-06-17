@@ -5,7 +5,7 @@ const Sidebar = () => {
 
 
   return (
-    <div className="sidebar col-2 col-order-1">
+    <div className="sidebar col col-order-1">
       <h2>Filtrado</h2>
 
       <div className="filter-section">

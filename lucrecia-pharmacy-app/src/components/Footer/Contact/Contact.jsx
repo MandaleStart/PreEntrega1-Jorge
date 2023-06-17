@@ -10,7 +10,7 @@ const Contact = () => {
         </li>
         <li><a className="text-reset" href="https://api.whatsapp.com/send/?phone=59898149089" target="_blank" rel='noreferrer'><WhatsAppIcon />Whatsapp: 098 149 089</a>
         </li>
-        <li><a className="text-reset" href="contact.html"><EmailIcon />contacto@farmacialucrecia.com</a>
+        <li><a className="text-reset" href="../contacto"><EmailIcon />contacto@farmacialucrecia.com</a>
         </li>
       </ul>
     </div>
