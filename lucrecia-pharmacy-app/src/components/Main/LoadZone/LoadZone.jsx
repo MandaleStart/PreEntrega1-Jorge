@@ -2,13 +2,11 @@ import { useEffect, useState } from 'react';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
 import Card from './Card/Card';
 
-const URL_PROD = "http://127.0.0.1:3000/productos/";
-
 const LoadZone = () => {
     const [productos, setProductos] = useState([]);
 
     useEffect(() => {
-        fetch(URL_PROD, {
+        fetch(REACT_APP_URL_PROD, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'

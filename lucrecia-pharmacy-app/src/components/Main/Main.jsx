@@ -8,7 +8,7 @@ const Main = () => {
         
         <Sidebar />
         
-        <LoadZone />
+     <LoadZone />
         
         {/*<PublicitedZone className="col-2 col-order-3" /> sin desarrollo*/}
         
