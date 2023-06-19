@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Item = ({ producto }) => {
 const renderProducto = producto.image ?? "https://i.ibb.co/MpG69V7/nofoto.png";
 
@@ -6,12 +8,12 @@ const renderProducto = producto.image ?? "https://i.ibb.co/MpG69V7/nofoto.png";
         <img className="card-img-top" src={renderProducto} alt={producto.name} />
         <div className="card-body">
           <h5 className="card-title">{producto.name}</h5>
-          <a href="#" className="btn btn-primary">
+          <Link href="#" className="btn btn-primary">
             Comprar
-          </a>
-          <a href="#" className="btn btn-danger">
+            </Link>
+          <Link href="#" className="btn btn-danger">
             Favoritos
-          </a>
+            </Link>
         </div>
       </div>
     );

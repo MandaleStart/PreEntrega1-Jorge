@@ -5,14 +5,18 @@
             "name": "Admin",
             "mail": "admin@farmacialucrecia.com",
             "pass": "Passdeprueba@Admin",
-            "imgProfile": "/notiene.jpg"
+            "imgProfile": "/notiene.jpg",
+            "cart": {},
+            "fav":{}
         },
         {
             "ID": "001",
             "name": "Luis Suarez",
             "mail": "luisS@mailfalso.com",
             "pass": "Segura1234",
-            "imgProfile": "/notiene.jpg"
+            "imgProfile": "/notiene.jpg",
+            "cart": {},
+            "fav":{}
         }
     ]
 }

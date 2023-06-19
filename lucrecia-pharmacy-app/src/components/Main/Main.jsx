@@ -1,4 +1,3 @@
-{/*import LoadZone from './LoadZone/loadZone';*/ }
 {/*import PublicitedZone  from './PublicitedZone/PublicitedZone'*/ }
 import Sidebar from './Sidebar/Sidebar';
 import ItemListContainer from './LoadZone/ItemListContainer/ItemListContainer';

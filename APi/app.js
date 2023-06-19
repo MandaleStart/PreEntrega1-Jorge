@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const productos = require('./productos.json');
 const usuarios = require('./usuarios.json');
+const orders = require('./orders.json')
 const cors = require('cors');
 
 app.use(express.json());
@@ -136,6 +137,58 @@ app.delete('/usuarios/:id', (req, res) => {
         res.json({ mensaje: 'Usuario eliminado' });
     }
 });
+// Ruta para obtener todos los pedidos
+app.get('/pedidos', (req, res) => {
+    res.json(orders);
+  });
+  
+  // Ruta para obtener un pedido por su ID
+  app.get('/pedidos/:id', (req, res) => {
+    const idPedido = parseInt(req.params.id);
+    const pedido = orders.find(pedido => pedido.id === idPedido);
+  
+    if (pedido) {
+      res.json(pedido);
+    } else {
+      res.status(404).json({ mensaje: 'Pedido no encontrado' });
+    }
+  });
+  
+  // Ruta para agregar un nuevo pedido
+  app.post('/pedidos', (req, res) => {
+    const nuevoPedido = req.body;
+    nuevoPedido.id = generarNuevoId(orders);
+  
+    orders.push(nuevoPedido);
+    res.status(201).json(nuevoPedido);
+  });
+  
+  // Ruta para editar un pedido por su ID
+  app.put('/pedidos/:id', (req, res) => {
+    const idPedido = parseInt(req.params.id);
+    const datosActualizados = req.body;
+    const indicePedido = orders.findIndex(pedido => pedido.id === idPedido);
+  
+    if (indicePedido === -1) {
+      res.status(404).json({ mensaje: 'Pedido no encontrado' });
+    } else {
+      orders[indicePedido] = { ...orders[indicePedido], ...datosActualizados };
+      res.json(orders[indicePedido]);
+    }
+  });
+  
+  // Ruta para eliminar un pedido por su ID
+  app.delete('/pedidos/:id', (req, res) => {
+    const idPedido = parseInt(req.params.id);
+    const indicePedido = orders.findIndex(pedido => pedido.id === idPedido);
+  
+    if (indicePedido === -1) {
+      res.status(404).json({ mensaje: 'Pedido no encontrado' });
+    } else {
+      orders.splice(indicePedido, 1);
+      res.json({ mensaje: 'Pedido eliminado' });
+    }
+  });  
 
 app.listen(3000, () => {
     console.log('Servidor iniciado en el puerto 3000');

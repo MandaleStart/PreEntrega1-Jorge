@@ -3,8 +3,8 @@ import Navbar from './components/Navbar/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Main from './components/Main/Main';
 import Contact from './views/ContactPage'
-import FavPage from './views/FavPage'
-import CartPage from './views/CartPage';
+import FavPage from './views/FavPage/FavPage'
+import CartPage from './views/CartPages/CartPage';
 import UserPage from './views/UserPage';
 import Cosmetica from './views/Categories/cosmetica';
 import PersonalCare from './views/Categories/cuidado-personal';
@@ -16,8 +16,10 @@ import Perfumeria from './views/Categories/perfumeria';
 import SolarCare from './views/Categories/proteccion-solar';
 import ProductosNaturales from './views/Categories/productos-naturales';
 import ErrorPage from './views/ErrorPage';
+import SearchPage  from './views/SearchPage';
 import ItemDetailContainer from './components/Main/LoadZone/ItemListContainer/ItemDetailContainer/ItemDetailContainer'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 const App = () => {
   return (<BrowserRouter>
@@ -38,7 +40,7 @@ const App = () => {
       <Route path='/category/productos-naturales' element={<ProductosNaturales />}></Route>
       <Route path='/category/proteccion-solar' element={<SolarCare />}></Route>
       <Route path='/item/:id'element={<ItemDetailContainer />}></Route>
-      
+      <Route path='/search'element={<SearchPage />}></Route>
       <Route path='*' element={<ErrorPage />}></Route>
     </Routes>
     <Footer />

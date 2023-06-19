@@ -863,7 +863,7 @@
         }
     },
     {
-        "id": 33407,
+        "id": 33447,
         "name": "CREMA FACIAL CC CON COLOR FPS 50",
         "cant": 50,
         "cost": 2495.74,
@@ -876,7 +876,7 @@
         }
     },
     {
-        "id": 33412,
+        "id": 334120,
         "name": "LOCION NIÑOS - FPS 50 (CAJA X 6)",
         "cant": 150,
         "cost": 3042.63,
@@ -889,7 +889,7 @@
         }
     },
     {
-        "id": 33405,
+        "id": 334050,
         "name": "CREMA FACIAL",
         "cant": 50,
         "cost": 2302.8,
@@ -902,7 +902,7 @@
         }
     },
     {
-        "id": 33404,
+        "id": 3340401,
         "name": "SPRAY NIÑOS FPS 50 (CAJA X 6)",
         "cant": 200,
         "cost": 2964.89,
@@ -915,7 +915,7 @@
         }
     },
     {
-        "id": 33415,
+        "id": 334150,
         "name": "GEL/CREMA OIL CONTROL FPS 50",
         "cant": 50,
         "cost": 3042.63,
@@ -928,7 +928,7 @@
         }
     },
     {
-        "id": 33417,
+        "id": 33457,
         "name": "SPRAY OIL CONTROL TOQUE SECO FPS 50",
         "cant": 200,
         "cost": 3042.63,
@@ -941,7 +941,7 @@
         }
     },
     {
-        "id": 33418,
+        "id": 334180,
         "name": "CREMA FACIAL FPS 50 ANTIEDAD (CAJA X 12)",
         "cant": 50,
         "cost": 2302.8,
@@ -954,7 +954,7 @@
         }
     },
     {
-        "id": 33420,
+        "id": 334200,
         "name": "LOCION TOQUE SECO FPS 50 (CAJA X12)",
         "cant": 200,
         "cost": 882.8,
@@ -967,7 +967,7 @@
         }
     },
     {
-        "id": 33421,
+        "id": 334210,
         "name": "CREMA FACIAL TOQUE SECO CC MED.",
         "cantml": 50,
         "cost": 1686.5,
@@ -993,7 +993,7 @@
         }
     },
     {
-        "id": 33423,
+        "id": 334230,
         "name": "CREMA PIGMENT CONTROL FPS 50 (CAJA X12)",
         "cant": 50,
         "cost": 1686.5,
@@ -1146,7 +1146,7 @@
         }
     },
     {
-        "id": 33422,
+        "id": 334220,
         "name": "CREMA PIGMENT CONTROL FPS 50 (CAJA X12)",
         "cantml": "50 ml.",
         "type": "",
@@ -1373,7 +1373,7 @@
         }
     },
     {
-        "id": 491,
+        "id": 491000,
         "name": "Anis Estrellado 15g",
         "cost": "102,00",
         "cant": "15g",
@@ -1433,7 +1433,7 @@
         }
     },
     {
-        "id": 439,
+        "id": 40309,
         "name": "Bardana 25g",
         "cost": "96,00",
         "cant": "25g",
@@ -1541,7 +1541,7 @@
         }
     },
     {
-        "id": 491,
+        "id": 491001,
         "name": "Centaurea 30g",
         "cost": "109,00",
         "cant": "30g",
@@ -1733,7 +1733,7 @@
         }
     },
     {
-        "id": 435,
+        "id": 4003005,
         "name": "Hipericon 50g",
         "cost": "$200,00",
         "cant": "50g",
@@ -2009,7 +2009,7 @@
         }
     },
     {
-        "id": 473,
+        "id": 40703,
         "name": "Quiebralotodo 30g",
         "cost": "$102,00",
         "cant": "30g",
@@ -2105,7 +2105,7 @@
         }
     },
     {
-        "id": 403,
+        "id": 40030,
         "name": "Te Anguai 50g",
         "cost": 148,
         "cant": 50,
@@ -2117,7 +2117,7 @@
         }
     },
     {
-        "id": 404,
+        "id": 400004,
         "name": "Te Armi 50g",
         "cost": 91,
         "cant": 50,
@@ -2153,7 +2153,7 @@
         }
     },
     {
-        "id": 407,
+        "id": 40007,
         "name": "Te Indio 50g",
         "cost": 112,
         "cant": 50,
