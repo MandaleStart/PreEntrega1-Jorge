@@ -1,14 +1,15 @@
+import { Link } from 'react-router-dom';
 const Categories = () => {
   const categories = [
-    'Cosmetica',
-    'Cuidado Personal',
-    'Medicamentos',
-    'Maternidad',
-    'Productos Naturales',
-    'Perfumeria',
-    'Proteccion Solar',
-    'Joyeria',
-    'Marcas Destacadas'
+    'cosmetica',
+    'cuidado personal',
+    'medicamentos',
+    'maternidad',
+    'productos naturales',
+    'perfumeria',
+    'proteccion solar',
+    'joyeria',
+    'marcas destacadas'
   ];
 
   const formatCategory = (category) => {
@@ -27,7 +28,7 @@ const Categories = () => {
         <ul className="navbar-nav">
           {categories.map((category, index) => (
             <li className="nav-item" key={index}>
-              <a className="nav-link" href={"/category/" + formatCategory(category)}>{category}</a>
+              <Link className="nav-link text-capitalize" to={"/category/" + formatCategory(category)}>{category}</Link>
             </li>
           ))}
         </ul>

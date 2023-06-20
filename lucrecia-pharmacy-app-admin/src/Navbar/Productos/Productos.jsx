@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 const Productos = () => {
     return (
-        <a href="/productos" className="Navbar-item">
+        <Link to="/productos" className="Navbar-item">
             Productos
-        </a>
+        </Link>
     );
 };
 

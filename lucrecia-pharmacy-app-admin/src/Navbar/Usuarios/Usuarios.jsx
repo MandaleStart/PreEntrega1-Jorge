@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 const Usuarios = () => {
     return (
-        <a href="/usuarios" className="Navbar-item">
+        <Link  to="/usuarios" className="Navbar-item">
             Usuarios
-        </a>
+        </Link>
     );
 };
 

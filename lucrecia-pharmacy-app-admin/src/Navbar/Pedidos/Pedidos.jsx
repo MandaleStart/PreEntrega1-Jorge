@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 const Pedidos = () => {
     return (
-        <a href="/pedidos" className="Navbar-item">
+        <Link to="/pedidos" className="Navbar-item">
             Pedidos
-        </a>
+        </Link>
     );
 };
 

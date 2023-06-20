@@ -31,7 +31,7 @@ const ItemListContainer = ({ categoria  }) => {
   return (
     <div className="container row">
       {filteredProductos.map((producto) => (
-        <Link className="col-3" key={producto.id} to={`/item/${producto.id}`} style={{ textDecoration: 'none' }}>
+        <Link className="col-3 " key={producto.id} to={`/item/${producto.id}`} style={{ textDecoration: 'none' }}>
           <Item producto={producto} />
         </Link>
       ))}

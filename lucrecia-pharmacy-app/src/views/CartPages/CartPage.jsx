@@ -17,7 +17,7 @@ const CartPage = () => {
             
             <div className="col-4 col-order-2">
             <CartSettings />
-            </div>s
+            </div>
         </main>
     );
 };
