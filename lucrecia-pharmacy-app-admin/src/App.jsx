@@ -9,6 +9,7 @@ import Productos from "../views/productos/Productos"
 import Pedidos from '../views/Pedidos/Pedidos';
 import PedidoDetalle from "../views/Pedidos/PedidoDetalle"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from '../views/Login';
 
 
 const App = () => {
@@ -19,7 +20,7 @@ const App = () => {
         <Route path='/' element={<Main />}></Route>
         <Route path='/usuarios' element={<Usuarios />}></Route>
         <Route path='/productos' element={<Productos />}></Route>
-        {/*<Route path='/login' element={<LogInspector />}></Route>*/}
+        <Route path='/login' element={<Login />}></Route>
         <Route path='/pedidos' element={<Pedidos />}></Route>
         <Route path="/pedidos/:id" element={<PedidoDetalle />}></Route>
         <Route path='*' element={<ErrorPage />}></Route>

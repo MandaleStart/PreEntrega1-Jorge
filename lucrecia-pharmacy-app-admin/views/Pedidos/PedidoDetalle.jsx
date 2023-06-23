@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+
 
 const PedidoDetalle = () => {
     const location = useLocation();
@@ -37,10 +38,24 @@ const PedidoDetalle = () => {
     }, []);
 
     const getNombreProducto = (productoId) => {
-        const producto = productos.find((producto) => producto.id === productoId);
-        return producto ? producto.nombre : 'Nombre no disponible';
-    };
+        const productId = Number(productoId.replace(/\(.*\)/g, '')); // Eliminar paréntesis y convertir a número
+        const producto = productos.find((producto) => producto.id === productId);
+        return producto ? producto.name : 'Nombre no disponible';
+      };
+      
+      const getCantidadProducto = (productoId) => {
+        const startIndex = productoId.indexOf('(') + 1; // Índice de inicio del número entre paréntesis
+        const endIndex = productoId.indexOf(')'); // Índice de fin del número entre paréntesis
+        const cantidad = Number(productoId.substring(startIndex, endIndex)); // Obtener el número y convertirlo a número
+        return cantidad;
+      };
 
+      const getIdProducto = (productoId) => {
+        const startIndex = productoId.indexOf('('); // Índice de inicio del paréntesis
+        const productId = Number(productoId.substring(0, startIndex)); // Obtener el número y convertirlo a número
+        return productId;
+      };
+      
     return (
         <div>
             <h2>Detalles del Pedido N°{pedidoId}</h2>
@@ -94,10 +109,11 @@ const PedidoDetalle = () => {
                                 <tbody >
                                     {pedido.productos.map((productoId) => (
                                         <tr key={productoId}>
-                                            <td>{productoId}</td>
-                                            <td>{getNombreProducto(productoId)}</td>
-                                            <td>1</td>
+                                            <td><Link to={'/productos/' + getIdProducto(productoId)}>{getIdProducto(productoId)}</Link></td>
+                                            <td><Link to={'/productos/' + getIdProducto(productoId)}>{getNombreProducto(productoId)}</Link></td>
+                                            <td><Link to={'/productos/' + getIdProducto(productoId)}>{getCantidadProducto(productoId)}</Link></td>
                                         </tr>
+                                        
                                     ))}
                                 </tbody>
                             </table>
@@ -110,5 +126,4 @@ const PedidoDetalle = () => {
         </div>
     );
 };
-
 export default PedidoDetalle;

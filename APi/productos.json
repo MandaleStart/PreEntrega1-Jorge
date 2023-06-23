@@ -7,11 +7,10 @@
         "cost": 11800,
         "image": "https://i.ibb.co/sKZkhyn/100100.jpg",
         "brand": "Chanel",
-        "gender": "female",
         "stock": 10,
         "categoria": {
-            "nombre": "perfumeria",
-            "id": "perfumeria"
+            "id": "perfumeria",
+            "subcat":["female"]
         }
     },
     {
@@ -22,25 +21,23 @@
         "cost": 11200,
         "image": "https://i.ibb.co/Gc7GBV9/100102.jpg",
         "brand": "Dior",
-        "gender": "female",
         "stock": 10,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
     {
         "id": 100109,
-        "name": " Chanel Coco Mademoiselle EDP 100ml",
+        "name": "Chanel Coco Mademoiselle EDP 100ml",
         "cantml": "100ml",
         "type": "EDP",
         "cost": 11800,
         "image": "https://i.ibb.co/V2tzmQK/100156.webp",
         "brand": "Chanel",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -52,10 +49,9 @@
         "cost": 16500,
         "image": "https://i.ibb.co/q1kLRq5/100145.webp",
         "brand": "Tom Ford",
-        "gender": "unisex",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["unisex"],
             "id": "perfumeria"
         }
     },
@@ -67,10 +63,9 @@
         "cost": 10500,
         "image": "https://i.ibb.co/jfZhBr1/100158.jpg",
         "brand": "Thierry Mugler",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -82,10 +77,9 @@
         "cost": 12500,
         "image": "https://i.ibb.co/sPjh46x/100105.jpg",
         "brand": "Lancôme",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -97,10 +91,9 @@
         "cost": 7500,
         "image": "https://i.ibb.co/NSZ0Qg2/100150.jpg",
         "brand": "Dolce & Gabbana",
-        "gender": "unisex-female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["unisex-female"],
             "id": "perfumeria"
         }
     },
@@ -112,10 +105,9 @@
         "cost": 12500,
         "image": "https://i.ibb.co/1L8znjQ/100155.jpg",
         "brand": "Viktor & Rolf",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -127,25 +119,23 @@
         "cost": 13500,
         "image": "https://i.ibb.co/t8LyzLk/Guerlain-Shalimar.jpg",
         "brand": "Guerlain",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
     {
         "id": 100110,
-        "name": " Yves Saint Laurent Opium EDP 90ml",
+        "name": "Yves Saint Laurent Opium EDP 90ml",
         "cantml": "90ml",
         "type": "EDP",
         "cost": 12500,
         "image": "https://i.ibb.co/2czCvkd/100159.jpg",
         "brand": "Yves Saint Laurent",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -157,10 +147,9 @@
         "cost": 10500,
         "image": "https://i.ibb.co/jktGWHh/100161.jpg",
         "brand": "Carolina Herrera",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -172,10 +161,9 @@
         "cost": 12000,
         "image": "https://i.ibb.co/MkV4vRp/100112.jpg",
         "brand": "Chanel",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -187,10 +175,9 @@
         "cost": 10500,
         "image": "https://i.ibb.co/nzsvntg/100113.jpg",
         "brand": "Thierry Mugler",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -202,10 +189,9 @@
         "cost": 10500,
         "image": "https://i.ibb.co/QCpX6cq/100114.webp",
         "brand": "Giorgio Armani",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -217,10 +203,9 @@
         "cost": 13000,
         "image": "https://i.ibb.co/2czCvkd/100159.jpg",
         "brand": "Yves Saint Laurent",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -232,10 +217,9 @@
         "cost": 8000,
         "image": "https://i.ibb.co/rQ5DtQR/100143.jpg",
         "brand": "Marc Jacobs",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -247,10 +231,9 @@
         "cost": 9500,
         "image": "https://i.ibb.co/Xpb4fng/100117.jpg",
         "brand": "Giorgio Armani",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -262,10 +245,9 @@
         "cost": 12000,
         "image": "https://i.ibb.co/R7WWcj4/100118.webp",
         "brand": "Dior",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -277,10 +259,9 @@
         "cost": 9000,
         "image": "https://i.ibb.co/D9CYpjM/100119.jpg",
         "brand": "Calvin Klein",
-        "gender": "unisex-female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["unisex", "female"],
             "id": "perfumeria"
         }
     },
@@ -292,10 +273,9 @@
         "cost": 12900,
         "image": "https://i.ibb.co/zhYnXTv/100148.jpg",
         "brand": "Gucci",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -307,10 +287,9 @@
         "cost": 13000,
         "image": "https://i.ibb.co/1L8znjQ/100155.jpg",
         "brand": "Viktor & Rolf",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -322,10 +301,9 @@
         "cost": 11000,
         "image": "https://i.ibb.co/jfZhBr1/100158.jpg",
         "brand": "Thierry Mugler",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -337,10 +315,9 @@
         "cost": 9000,
         "image": "https://i.ibb.co/Kq9PNtG/100131.jpg",
         "brand": "Calvin Klein",
-        "gender": "unisex-female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["unisex", "female"],
             "id": "perfumeria"
         }
     },
@@ -352,10 +329,9 @@
         "cost": 12500,
         "image": "https://i.ibb.co/2czCvkd/100159.jpg",
         "brand": "Yves Saint Laurent",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -367,10 +343,9 @@
         "cost": 13500,
         "image": "https://i.ibb.co/Gc7GBV9/100102.jpg",
         "brand": "Dior",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -382,10 +357,9 @@
         "cost": 5500,
         "image": "https://i.ibb.co/M9tCgJ0/100138.jpg",
         "brand": "Chopard",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -397,10 +371,9 @@
         "cost": 12000,
         "image": "https://i.ibb.co/GpDvzzc/100139.jpg",
         "brand": "Jimmy Choo",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -412,25 +385,9 @@
         "cost": 11500,
         "image": "https://i.ibb.co/BKyj1fC/100140.jpg",
         "brand": "Jean Paul Gaultier",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
-            "id": "perfumeria"
-        }
-    },
-    {
-        "id": 100141,
-        "name": "Prada Candy",
-        "cantml": "80ml",
-        "type": "EDP",
-        "cost": 13000,
-        "image": "https://i.ibb.co/NLBsr2x/100141.jpg",
-        "brand": "Prada",
-        "gender": "female",
-        "stock": 0,
-        "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -442,10 +399,9 @@
         "cost": 3500,
         "image": "https://i.ibb.co/8ccZnbK/perfume-acqua-di-gio-homme-edt-30-ml.webp",
         "brand": "Giorgio Armani",
-        "gender": "male",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["male"],
             "id": "perfumeria"
         }
     },
@@ -457,10 +413,9 @@
         "cost": 9500,
         "image": "https://i.ibb.co/rQ5DtQR/100143.jpg",
         "brand": "Marc Jacobs",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -472,10 +427,9 @@
         "cost": 13000,
         "image": "https://i.ibb.co/Rbs0B6M/100144.jpg",
         "brand": "Burberry",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -487,10 +441,9 @@
         "cost": 22000,
         "image": "https://i.ibb.co/q1kLRq5/100145.webp",
         "brand": "Tom Ford",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -502,10 +455,9 @@
         "cost": 14000,
         "image": "https://i.ibb.co/2czCvkd/100159.jpg",
         "brand": "Yves Saint Laurent",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -517,10 +469,9 @@
         "cost": 12000,
         "image": "https://i.ibb.co/nw28QgP/100147.webp",
         "brand": "Versace",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -532,10 +483,9 @@
         "cost": 15000,
         "image": "https://i.ibb.co/zhYnXTv/100148.jpg",
         "brand": "Gucci",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -547,10 +497,9 @@
         "cost": 18000,
         "image": "https://i.ibb.co/m6jv9tb/100149.jpg",
         "brand": "Chanel",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -562,10 +511,9 @@
         "cost": 11000,
         "image": "https://i.ibb.co/NSZ0Qg2/100150.jpg",
         "brand": "Dolce & Gabbana",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -577,10 +525,9 @@
         "cost": 12000,
         "image": "https://i.ibb.co/3mnhWP6/100151.jpg",
         "brand": "Issey Miyake",
-        "gender": "male",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["male"],
             "id": "perfumeria"
         }
     },
@@ -592,10 +539,9 @@
         "cost": 14500,
         "image": "https://i.ibb.co/jktGWHh/100161.jpg",
         "brand": "Carolina Herrera",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -607,10 +553,9 @@
         "cost": 14000,
         "image": "https://i.ibb.co/NLgXHRL/100153.webp",
         "brand": "Paco Rabanne",
-        "gender": "male",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["male"],
             "id": "perfumeria"
         }
     },
@@ -622,10 +567,9 @@
         "cost": 3400,
         "image": "https://i.ibb.co/Mff9BbW/100154.jpg",
         "brand": "Hermès",
-        "gender": "male",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["male"],
             "id": "perfumeria"
         }
     },
@@ -637,10 +581,9 @@
         "cost": 3500,
         "image": "https://i.ibb.co/1L8znjQ/100155.jpg",
         "brand": "Viktor&Rolf",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -652,10 +595,9 @@
         "cost": 4400,
         "image": "https://i.ibb.co/V2tzmQK/100156.webp",
         "brand": "Chanel",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -667,10 +609,9 @@
         "cost": 3900,
         "image": "https://i.ibb.co/bFZb64T/100157.jpg",
         "brand": "Narciso Rodriguez",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -682,10 +623,9 @@
         "cost": 4400,
         "image": "https://i.ibb.co/jfZhBr1/100158.jpg",
         "brand": "Thierry Mugler",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -697,10 +637,9 @@
         "cost": 3700,
         "image": "https://i.ibb.co/2czCvkd/100159.jpg",
         "brand": "Yves Saint Laurent",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -712,10 +651,9 @@
         "cost": 3900,
         "image": "https://i.ibb.co/zs7S9g9/100160.jpg",
         "brand": "Yves Saint Laurent",
-        "gender": "male",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["male"],
             "id": "perfumeria"
         }
     },
@@ -727,10 +665,9 @@
         "cost": 4100,
         "image": "https://i.ibb.co/jktGWHh/100161.jpg",
         "brand": "Carolina Herrera",
-        "gender": "female",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["female"],
             "id": "perfumeria"
         }
     },
@@ -742,10 +679,9 @@
         "cost": 3400,
         "image": "https://i.ibb.co/HGxzBX3/100162.jpg",
         "brand": "Jean Paul Gaultier",
-        "gender": "male",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["male"],
             "id": "perfumeria"
         }
     },
@@ -757,10 +693,9 @@
         "cost": 3200,
         "image": "https://i.ibb.co/MN3Tr6x/100163.webp",
         "brand": "Hugo Boss",
-        "gender": "male",
         "stock": 0,
         "categoria": {
-            "nombre": "perfumeria",
+            "subcat": ["male"],
             "id": "perfumeria"
         }
     },
@@ -774,7 +709,7 @@
         "brand": "VOGUE",
         "stock": 1,
         "categoria": {
-            "nombre": "cosmetica",
+            "subcat": ["esmalte"],
             "id": "cosmetica"
         }
     },
@@ -788,7 +723,7 @@
         "brand": "VOGUE",
         "stock": 1,
         "categoria": {
-            "nombre": "cosmetica",
+            "subcat": ["esmalte"],
             "id": "cosmetica"
         }
     },
@@ -802,7 +737,7 @@
         "brand": "VOGUE",
         "stock": 1,
         "categoria": {
-            "nombre": "cosmetica",
+            "subcat": ["esmalte"],
             "id": "cosmetica"
         }
     },
@@ -816,7 +751,7 @@
         "brand": "VOGUE",
         "stock": 1,
         "categoria": {
-            "nombre": "cosmetica",
+            "subcat": ["esmalte"],
             "id": "cosmetica"
         }
     },
@@ -830,7 +765,7 @@
         "brand": "VOGUE",
         "stock": 1,
         "categoria": {
-            "nombre": "cosmetica",
+            "subcat": ["esmalte"],
             "id": "cosmetica"
         }
     },
@@ -844,7 +779,7 @@
         "brand": "VOGUE",
         "stock": 1,
         "categoria": {
-            "nombre": "cosmetica",
+            "subcat": ["esmalte"],
             "id": "cosmetica"
         }
     },
@@ -858,7 +793,7 @@
         "brand": "VOGUE",
         "stock": 1,
         "categoria": {
-            "nombre": "cosmetica",
+            "subcat": ["esmalte"],
             "id": "cosmetica"
         }
     },
@@ -871,7 +806,7 @@
         "stock": 1,
         "brand": "NIVEA",
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -884,7 +819,7 @@
         "stock": 1,
         "brand": "NIVEA",
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -897,7 +832,7 @@
         "stock": 1,
         "brand": "NIVEA",
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -910,7 +845,7 @@
         "stock": 1,
         "brand": "NIVEA",
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -923,7 +858,7 @@
         "stock": 1,
         "brand": "NIVEA",
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -936,7 +871,7 @@
         "stock": 1,
         "brand": "NIVEA",
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -949,7 +884,7 @@
         "stock": 1,
         "brand": "NIVEA",
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -962,7 +897,7 @@
         "stock": 1,
         "brand": "NIVEA",
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -975,7 +910,7 @@
         "stock": 1,
         "image": null,
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -988,7 +923,7 @@
         "stock": 1,
         "brand": "NIVEA",
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -1001,7 +936,7 @@
         "brand": "NIVEA",
         "stock": 1,
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -1015,7 +950,7 @@
         "brand": "",
         "stock": 1,
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -1029,7 +964,7 @@
         "brand": "",
         "stock": 1,
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -1043,7 +978,7 @@
         "brand": "",
         "stock": 1,
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -1057,7 +992,7 @@
         "brand": "",
         "stock": 1,
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -1071,7 +1006,7 @@
         "brand": "",
         "stock": 1,
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -1085,7 +1020,7 @@
         "brand": "",
         "stock": 1,
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -1099,7 +1034,7 @@
         "brand": "",
         "stock": 1,
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -1113,7 +1048,7 @@
         "brand": "",
         "stock": 1,
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -1127,7 +1062,7 @@
         "brand": "",
         "stock": 1,
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -1141,7 +1076,7 @@
         "brand": "",
         "stock": 1,
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
@@ -1155,20 +1090,46 @@
         "brand": "",
         "stock": 1,
         "categoria": {
-            "nombre": "solares",
+            "subcat": ["solares"],
             "id": "proteccion-solar"
         }
     },
     {
         "id": 10900,
-        "name": "ejemplo",
+        "name": "MAGOLD 104",
+        "cant": 50,
+        "cost": 495.74,
+        "image": "https://i.ibb.co/MM8TTr4/magold104.jpg",
+        "stock": 1,
+        "brand": "MAGOLD",
+        "categoria": {
+            "subcat": ["caravanas"],
+            "id": "joyeria"
+        }
+    },
+    {
+        "id": 10902,
+        "name": "MAGOLD 110",
+        "cant": 50,
+        "cost": 495.74,
+        "image": "https://i.ibb.co/9pQyx0V/magold110.jpg",
+        "stock": 1,
+        "brand": "MAGOLD",
+        "categoria": {
+            "subcat": ["cadenas", "dijes"],
+            "id": "joyeria"
+        }
+    },
+    {
+        "id": 10072,
+        "name": "MAGOLD 72",
         "cant": 50,
         "cost": 2495.74,
-        "image": null,
+        "image": "https://i.ibb.co/MNndGBW/magold72.jpg",
         "stock": 1,
         "brand": "",
         "categoria": {
-            "nombre": "joyeria",
+            "subcat": ["anillos"],
             "id": "joyeria"
         }
     },
@@ -1182,7 +1143,7 @@
         "brand": "Babysec",
         "stock": 25,
         "categoria": {
-            "nombre": "maternidad",
+            "subcat": ["pañales"],
             "id": "maternidad"
         }
     },
@@ -1196,7 +1157,7 @@
         "brand": "Wetclean",
         "stock": 63,
         "categoria": {
-            "nombre": "maternidad",
+            "subcat": ["toallitas"],
             "id": "maternidad"
         }
     },
@@ -1210,7 +1171,7 @@
         "brand": "Huggies",
         "stock": 80,
         "categoria": {
-            "nombre": "maternidad",
+            "subcat": ["pañales"],
             "id": "maternidad"
         }
     },
@@ -1224,7 +1185,7 @@
         "brand": "Johnson & Johnson",
         "stock": 43,
         "categoria": {
-            "nombre": "maternidad",
+            "subcat": ["toallitas"],
             "id": "maternidad"
         }
     },
@@ -1238,7 +1199,7 @@
         "brand": "Pampers",
         "stock": 70,
         "categoria": {
-            "nombre": "maternidad",
+            "subcat": ["pañales"],
             "id": "maternidad"
         }
     },
@@ -1252,7 +1213,7 @@
         "brand": "Huggies",
         "stock": 58,
         "categoria": {
-            "nombre": "maternidad",
+            "subcat": ["pañales"],
             "id": "maternidad"
         }
     },
@@ -1266,7 +1227,7 @@
         "brand": "Johnson & Johnson",
         "stock": 112,
         "categoria": {
-            "nombre": "maternidad",
+            "subcat": ["toallitas"],
             "id": "maternidad"
         }
     },
@@ -1280,7 +1241,7 @@
         "brand": "Babysec",
         "stock": 92,
         "categoria": {
-            "nombre": "maternidad",
+            "subcat": ["pañales"],
             "id": "maternidad"
         }
     },
@@ -1294,7 +1255,7 @@
         "brand": "Babysec",
         "stock": 78,
         "categoria": {
-            "nombre": "maternidad",
+            "subcat": ["pañales"],
             "id": "maternidad"
         }
     },
@@ -1308,283 +1269,283 @@
         "brand": "Huggies",
         "stock": 102,
         "categoria": {
-            "nombre": "maternidad",
+            "subcat": ["pañales"],
             "id": "maternidad"
         }
     },
     {
         "id": 423,
         "name": "Acapú 50g",
-        "cost": "153,00",
+        "cost": 153,
         "cant": "50g",
         "image": null,
         "stock": 17,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 415,
         "name": "Alcahucil 30g",
-        "cost": "96,00",
+        "cost": 96,
         "cant": "30g",
         "image": null,
         "stock": 92,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 455,
         "name": "Alfalfa 30g",
-        "cost": "96,00",
+        "cost": 96,
         "cant": "30g",
         "image": null,
         "stock": 80,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 462,
         "name": "Alhucema 15g",
-        "cost": "96,00",
+        "cost": 96,
         "cant": "15g",
         "image": null,
         "stock": 39,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 426,
         "name": "Anacahuita 25g",
-        "cost": "96,00",
+        "cost": 96,
         "cant": "25g",
         "image": null,
         "stock": 65,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 491000,
         "name": "Anis Estrellado 15g",
-        "cost": "102,00",
+        "cost": 102,
         "cant": "15g",
         "image": null,
         "stock": 23,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 454,
         "name": "Anis Grano 15g",
-        "cost": "96,00",
+        "cost": 96,
         "cant": "15g",
         "image": null,
         "stock": 52,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 446,
         "name": "Arazá 30g",
-        "cost": "96,00",
+        "cost": 96,
         "cant": "30g",
         "image": null,
         "stock": 44,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 491,
         "name": "Baño De Descarga 50g",
-        "cost": "112,00",
+        "cost": 112,
         "cant": "50g",
         "image": null,
         "stock": 51,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 407,
         "name": "Barba De Choclo 20g",
-        "cost": "102,00",
+        "cost": 102,
         "cant": "20g",
         "image": null,
         "stock": 73,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 40309,
         "name": "Bardana 25g",
-        "cost": "96,00",
+        "cost": 96,
         "cant": "25g",
         "image": null,
         "stock": 69,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 483,
         "name": "Boldo 25g",
-        "cost": "96,00",
+        "cost": 96,
         "cant": "25g",
         "image": null,
         "stock": 97,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 484,
         "name": "Calendula 25g",
-        "cost": "96,00",
+        "cost": 96,
         "cant": "25g",
         "image": null,
         "stock": 204,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 485,
         "name": "Cambará 30g",
-        "cost": "96,00",
+        "cost": 96,
         "cant": "30g",
         "image": null,
         "stock": 261,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 486,
         "name": "Cardo Mariano 50g",
-        "cost": "119,00",
+        "cost": 119,
         "cant": "50g",
         "image": null,
         "stock": 449,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 487,
         "name": "Carqueja 30g",
-        "cost": "96,00",
+        "cost": 96,
         "cant": "30g",
         "image": null,
         "stock": 102,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 488,
         "name": "Cascara Sagrada 30g",
-        "cost": "153,00",
+        "cost": 153,
         "cant": "30g",
         "image": null,
         "stock": 153,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 489,
         "name": "Cedro Santo 40g",
-        "cost": "135,0",
+        "cost": 135,
         "cant": "40g",
         "image": null,
         "stock": 48,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 490,
         "name": "Cedron 25g",
-        "cost": "102,00",
+        "cost": 102,
         "cant": "25g",
         "image": null,
         "stock": 157,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 491001,
         "name": "Centaurea 30g",
-        "cost": "109,00",
+        "cost": 109,
         "cant": "30g",
         "image": null,
         "stock": 153, 
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 492,
         "name": "Centella Asiatica 30g",
-        "cost": "112,00",
+        "cost": 112,
         "cant": "30g",
         "image": null,
         "stock": 293,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 493,
         "name": "Cha Mineiro 30g",
-        "cost": "153,00",
+        "cost": 153,
         "cant": "30g",
         "image": null,
         "stock": 498,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 494,
         "name": "Cola De Caballo 25g",
-        "cost": "96,00",
+        "cost": 96,
         "cant": "25g",
         "image": null,
         "stock": 395,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -1596,7 +1557,7 @@
         "image": null,
         "stock": 50,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -1608,7 +1569,7 @@
         "image": null,
         "stock": 27,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -1620,7 +1581,7 @@
         "image": null,
         "stock": 78,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -1632,7 +1593,7 @@
         "image": null,
         "stock": 14,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -1644,7 +1605,7 @@
         "image": null,
         "stock": 62,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -1656,7 +1617,7 @@
         "image": null,
         "stock": 39,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -1668,7 +1629,7 @@
         "image": null,
         "stock": 83,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -1680,7 +1641,7 @@
         "image": null,
         "stock": 22,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -1692,391 +1653,391 @@
         "image": null,
         "stock": 76,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 403,
         "name": "Graviola 20g",
-        "cost": "$124,00",
+        "cost": 124,
         "cant": "20g",
         "image": null,
         "stock": 15,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 499,
         "name": "Guaco 15g",
-        "cost": "$86,00",
+        "cost": 86,
         "cant": "15g",
         "image": null,
         "stock": 20,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 523,
         "name": "Hinojo 15g",
-        "cost": "$96,00",
+        "cost": 96,
         "cant": "15g",
         "image": null,
         "stock": 10,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 4003005,
         "name": "Hipericon 50g",
-        "cost": "$200,00",
+        "cost": 200,
         "cant": "50g",
         "image": null,
         "stock": 5,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 404,
         "name": "Hojas De Sen 15g",
-        "cost": "$96,00",
+        "cost": 96,
         "cant": "15g",
         "image": null,
         "stock": 18,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 506,
         "name": "Lapacho 40g",
-        "cost": "$102,00",
+        "cost": 102,
         "cant": "40g",
         "image": null,
         "stock": 12,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 459,
         "name": "Laurel 20g",
-        "cost": "$96,00",
+        "cost": 96,
         "cant": "20g",
         "image": null,
         "stock": 14,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 416,
         "name": "Levante 30g",
-        "cost": "$96,00",
+        "cost": 96,
         "cant": "30g",
         "image": null,
         "stock": 16,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 468,
         "name": "Llanten 30g",
-        "cost": "$96,00",
+        "cost": 96,
         "cant": "30g",
         "image": null,
         "stock": 22,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 577,
         "name": "Malva 30g",
-        "cost": "$96,00",
+        "cost": 96,
         "cant": "30g",
         "image": null,
         "stock": 8,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 562,
         "name": "Manzanilla 25g",
-        "cost": "$102,00",
+        "cost": 102,
         "cant": "25g",
         "image": null,
         "stock": 9,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 425,
         "name": "MARCELA 30G",
-        "cost": "$96,00",
+        "cost": 96,
         "cant": "30g",
         "image": null,
         "stock": 13,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 433,
         "name": "Marrubio 30g",
-        "cost": "$96,00",
+        "cost": 96,
         "cant": "30g",
         "image": null,
         "stock": 72,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 434,
         "name": "Mburucuya 30g",
-        "cost": "$96,00",
+        "cost": 96,
         "cant": "30g",
         "image": null,
         "stock": 62,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 435,
         "name": "Menta 30g",
-        "cost": "$96,00",
+        "cost": 96,
         "cant": "30g",
         "image": null,
         "stock": 42,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 436,
         "name": "Milenrama 40g",
-        "cost": "$168,00",
+        "cost": 168,
         "cant": "40g",
         "image": null,
         "stock": 36,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 437,
         "name": "Moringa 30g",
-        "cost": "$200,00",
+        "cost": 200,
         "cant": "30g",
         "image": null,
         "stock": 23,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 438,
         "name": "Nogal 30g",
-        "cost": "$96,00",
+        "cost": 96,
         "cant": "30g",
         "image": null,
         "stock": 54,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 439,
         "name": "Olivo 25g",
-        "cost": "$96,00",
+        "cost": 96,
         "cant": "25g",
         "image": null,
         "stock": 38,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 440,
         "name": "Ortiga 25g",
-        "cost": "$96,00",
+        "cost": 96,
         "cant": "25g",
         "image": null,
         "stock": 42,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 441,
         "name": "Palo Azul 75g",
-        "cost": "$153,00",
+        "cost": 153,
         "cant": "75g",
         "image": null,
         "stock": 18,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 442,
         "name": "Pasto Limon 30g",
-        "cost": "$153,00",
+        "cost": 153,
         "cant": "30g",
         "image": null,
         "stock": 20,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 443,
         "name": "Pata De Vaca 25g",
-        "cost": "$96,00",
+        "cost": 96,
         "cant": "25g",
         "image": null,
         "stock": 33,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 444,
         "name": "Pie De Leon 35g",
-        "cost": "$200,00",
+        "cost": 200,
         "cant": "35g",
         "image": null,
         "stock": 25,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 413,
         "name": "Poleo 25g",
-        "cost": "$96,00",
+        "cost": 96,
         "cant": "25g",
         "image": null,
         "stock": 7,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 431,
         "name": "Quebra Pedra 30g",
-        "cost": "$156,00",
+        "cost": 156,
         "cant": "30g",
         "image": null,
         "stock": 3,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 40703,
         "name": "Quiebralotodo 30g",
-        "cost": "$102,00",
+        "cost": 102,
         "cant": "30g",
         "image": null,
         "stock": 5,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 495,
         "name": "Romero 15g",
-        "cost": "$96,00",
+        "cost": 96,
         "cant": "15g",
         "image": null,
         "stock": 8,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 508,
         "name": "Rosa Mosqueta 70g",
-        "cost": "$279,00",
+        "cost": 279,
         "cant": "70g",
         "image": null,
         "stock": 1,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 548,
         "name": "Sarandi Blanco 30g",
-        "cost": "$96,00",
+        "cost": 96,
         "cant": "30g",
         "image": null,
         "stock": 4,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 579,
         "name": "Sombra De Toro 25g",
-        "cost": "$96,00",
+        "cost": 96,
         "cant": "25g",
         "image": null,
         "stock": 2,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
     {
         "id": 590,
         "name": "Stevia 25g",
-        "cost": "$102,00",
+        "cost": 102,
         "cant": "25g",
         "image": null,
         "stock": 6,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -2088,7 +2049,7 @@
         "image": null,
         "stock": 50,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -2100,7 +2061,7 @@
         "image": null,
         "stock": 30,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -2112,7 +2073,7 @@
         "image": null,
         "stock": 20,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -2124,7 +2085,7 @@
         "image": null,
         "stock": 35,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -2136,7 +2097,7 @@
         "image": null,
         "stock": 40,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -2148,7 +2109,7 @@
         "image": null,
         "stock": 25,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -2160,7 +2121,7 @@
         "image": null,
         "stock": 15,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -2172,7 +2133,7 @@
         "image": null,
         "stock": 10,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -2184,7 +2145,7 @@
         "image": null,
         "stock": 8,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -2196,7 +2157,7 @@
         "image": null,
         "stock": 12,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -2208,7 +2169,7 @@
         "image": null,
         "stock": 18,
         "categoria": {
-            "nombre": "naturales",
+            "subcat": ["naturales"],
             "id": "productos-naturales"
         }
     },
@@ -2222,7 +2183,7 @@
         "brand": "Perifar",
         "stock": 1,
         "categoria": {
-            "nombre": "Medicamento",
+            "subcat": ["antiniflamatorio", "analgesicos"],
             "id": "medicamentos"
         }
     },
@@ -2236,7 +2197,7 @@
         "brand": "Perifar",
         "stock": 1,
         "categoria": {
-            "nombre": "Medicamento",
+            "subcat": ["antiniflamatorio", "analgesicos"],
             "id": "medicamentos"
         }
     },
@@ -2250,7 +2211,7 @@
         "brand": "Perifar",
         "stock": 1,
         "categoria": {
-            "nombre": "Medicamento",
+            "subcat": ["antigripales"],
             "id": "medicamentos"
         }
     },
@@ -2264,7 +2225,7 @@
         "brand": "Perifar",
         "stock": 1,
         "categoria": {
-            "nombre": "Medicamento",
+            "subcat": ["analgesicos", "relajante-muscular"],
             "id": "medicamentos"
         }
     },
@@ -2278,7 +2239,7 @@
         "brand": "Perifar",
         "stock": 1,
         "categoria": {
-            "nombre": "Medicamento",
+            "subcat": ["antijaquecoso"],
             "id": "medicamentos"
         }
     },
@@ -2292,7 +2253,7 @@
         "brand": "Perifar",
         "stock": 1,
         "categoria": {
-            "nombre": "Medicamento",
+            "subcat": ["antispasmodico"],
             "id": "medicamentos"
         }
     },
@@ -2306,7 +2267,7 @@
         "brand": "Perifar",
         "stock": 1,
         "categoria": {
-            "nombre": "Medicamento",
+            "subcat": ["ibuprofeno"],
             "id": "medicamentos"
         }
     },
@@ -2320,7 +2281,7 @@
         "brand": "Perifar",
         "stock": 1,
         "categoria": {
-            "nombre": "Medicamento",
+            "subcat": ["descongestivo","antispasmodico","analgesico"],
             "id": "medicamentos"
         }
     },
@@ -2334,7 +2295,7 @@
         "brand": "perifar",
         "stock": 1,
         "categoria": {
-            "nombre": "Medicamento",
+            "subcat": ["antiniflamatorio", "analgesicos"],
             "id": "medicamentos"
         }
     },
@@ -2348,7 +2309,7 @@
         "brand": "Perifar",
         "stock": 1,
         "categoria": {
-            "nombre": "Medicamento",
+            "subcat": ["antiniflamatorio", "analgesicos"],
             "id": "medicamentos"
         }
     },
@@ -2362,7 +2323,7 @@
         "brand": "Perifar",
         "stock": 1,
         "categoria": {
-            "nombre": "Medicamento",
+            "subcat": ["antifebril", "analgesico","Pediatrico"],
             "id": "medicamentos"
         }
     },
@@ -2376,7 +2337,7 @@
         "brand": "Perifar",
         "stock": 1,
         "categoria": {
-            "nombre": "Medicamento",
+            "subcat": ["relajante-muscular", "analgesico"],
             "id": "medicamentos"
         }
     },
@@ -2390,7 +2351,7 @@
         "brand": "Perifar",
         "stock": 1,
         "categoria": {
-            "nombre": "Medicamento",
+            "subcat": ["analgesico","antiniflamatorio"],
             "id": "medicamentos"
         }
     },
@@ -2404,7 +2365,7 @@
         "brand": "Perifar",
         "stock": 10,
         "categoria": {
-            "nombre": "Medicamento",
+            "subcat": ["analgesico","antiniflamatorio"],
             "id": "medicamentos"
         }
     },
@@ -2418,7 +2379,7 @@
         "brand": "",
         "stock": 1,
         "categoria": {
-            "nombre": "Medicamento",
+            "subcat": ["analgesico","antifebril","pediatrico"],
             "id": "medicamentos"
         }
     },
@@ -2432,7 +2393,7 @@
         "brand": "Perifar",
         "stock": 1,
         "categoria": {
-            "nombre": "Medicamento",
+            "subcat": ["ibuprofeno"],
             "id": "medicamentos"
         }
     },
@@ -2446,7 +2407,7 @@
         "brand": "Perifar",
         "stock": 1,
         "categoria": {
-            "nombre": "Medicamento",
+            "subcat": ["antigripal"],
             "id": "medicamentos"
         }
     },
@@ -2460,7 +2421,7 @@
         "brand": "Perifar",
         "stock": 1,
         "categoria": {
-            "nombre": "Medicamento",
+            "subcat": ["antigripal"],
             "id": "medicamentos"
         }
     },
@@ -2474,7 +2435,7 @@
         "brand": "Perifar",
         "stock": 1,
         "categoria": {
-            "nombre": "Medicamento",
+            "subcat": ["descongestivo"],
             "id": "medicamentos"
         }
     },
@@ -2488,7 +2449,7 @@
         "brand": "Perifar",
         "stock": 1,
         "categoria": {
-            "nombre": "Medicamento",
+            "subcat": ["analgesico","antiniflamatorio"],
             "id": "medicamentos"
         }
     },
@@ -2502,7 +2463,7 @@
         "brand": "NIVEA",
         "stock": 1,
         "categoria": {
-            "nombre": "Cuidado Personal",
+            "subcat": ["cuidado-personal"],
             "id": "cuidado-personal"
         }
     },
@@ -2516,7 +2477,7 @@
         "brand": "NIVEA",
         "stock": 1,
         "categoria": {
-            "nombre": "Cuidado Personal",
+            "subcat": ["cuidado-personal"],
             "id": "cuidado-personal"
         }
     },
@@ -2530,7 +2491,7 @@
         "brand": "NIVEA",
         "stock": 1,
         "categoria": {
-            "nombre": "Cuidado Personal",
+            "subcat": ["cuidado-personal"],
             "id": "cuidado-personal"
         }
     },
@@ -2544,7 +2505,7 @@
         "brand": "NIVEA",
         "stock": 1,
         "categoria": {
-            "nombre": "Cuidado Personal",
+            "subcat": ["cuidado-personal"],
             "id": "cuidado-personal"
         }
     },
@@ -2558,7 +2519,7 @@
         "brand": "NIVEA",
         "stock": 1,
         "categoria": {
-            "nombre": "Cuidado Personal",
+            "subcat": ["cuidado-personal"],
             "id": "cuidado-personal"
         }
     },
@@ -2572,7 +2533,7 @@
         "brand": "NIVEA",
         "stock": 1,
         "categoria": {
-            "nombre": "Cuidado Personal",
+            "subcat": ["cuidado-personal"],
             "id": "cuidado-personal"
         }
     },
@@ -2586,7 +2547,7 @@
         "brand": "NIVEA",
         "stock": 1,
         "categoria": {
-            "nombre": "Cuidado Personal",
+            "subcat": ["cuidado-personal"],
             "id": "cuidado-personal"
         }
     }

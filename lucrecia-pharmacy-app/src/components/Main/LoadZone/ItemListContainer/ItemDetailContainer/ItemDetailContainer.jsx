@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-
+import {FaCartPlus, FaHeart} from 'react-icons/fa/index.esm';
 
 const ItemDetailContainer = () => {
   const [producto, setProducto] = useState(null);
@@ -33,8 +33,8 @@ const ItemDetailContainer = () => {
         <h1>{producto.name}</h1>
         <p>Stock: {producto.stock} disponibles</p>
         <p>${producto.cost}</p>
-        <button>Agregar al Carrito</button>
-        <button>Agregar a Favoritos</button>
+        <button className='btn btn-success'><FaCartPlus />Agregar al Carrito</button>
+        <button className='btn btn-warning'><FaHeart /> Agregar a Favoritos</button>
       </div>
     </main>
   );

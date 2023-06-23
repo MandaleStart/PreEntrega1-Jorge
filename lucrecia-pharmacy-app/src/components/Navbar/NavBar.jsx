@@ -15,9 +15,9 @@ const Navbar = () => {
         <FavoriteWidget/>
         
       </div>
-     <div>
+     
      <Categories />
-     </div>
+     
     </nav>
   );
 };

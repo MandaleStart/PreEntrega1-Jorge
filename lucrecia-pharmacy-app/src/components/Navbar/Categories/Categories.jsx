@@ -17,22 +17,20 @@ const Categories = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-      <div className="container">
+    <nav className="navbar navbar-expand-md navbar-dark bg-dark w-100s">
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCat"
           aria-controls="navbarCat" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarCat"></div>
 
-        <ul className="navbar-nav">
+        <ul className="navbar-nav ">
           {categories.map((category, index) => (
             <li className="nav-item" key={index}>
               <Link className="nav-link text-capitalize" to={"/category/" + formatCategory(category)}>{category}</Link>
             </li>
           ))}
         </ul>
-      </div>
     </nav>
   );
 };

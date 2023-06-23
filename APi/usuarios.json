@@ -1,22 +1,24 @@
-{
-    "users": [
+[
         {
-            "ID": "000",
+            "id": "000",            
+            "ci": "50700101",
+            "username": "AdminFL",
             "name": "Admin",
             "mail": "admin@farmacialucrecia.com",
             "pass": "Passdeprueba@Admin",
             "imgProfile": "/notiene.jpg",
-            "cart": {},
-            "fav":{}
+            "cart": [124,4524, 1141],
+            "fav":[121231,45222, 114321]
         },
         {
-            "ID": "001",
+            "id": "001",
+            "ci": "42311001",
+            "username": "luisS",
             "name": "Luis Suarez",
             "mail": "luisS@mailfalso.com",
             "pass": "Segura1234",
             "imgProfile": "/notiene.jpg",
-            "cart": {},
-            "fav":{}
+            "cart": [11124,45024, 11041],
+            "fav":[]
         }
-    ]
-}
+]

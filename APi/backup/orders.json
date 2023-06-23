@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "usuario": "Usuario1",
+      "fecha_creacion": "2023-06-19 10:00:00",
+      "fecha_entrega": "2023-06-21 14:00:00",
+      "status": "entregado",
+      "direccion":"uruguay 328",
+      "localidad":"Solis,Lavalleja",
+      "productos" :[31644,31645	]
+    },
+    {
+      "id": 2,
+      "usuario": "Usuario2",
+      "fecha_creacion": "2023-06-20 09:30:00",
+      "fecha_entrega": "",
+      "status": "en proceso",
+      "direccion":"Ruta 8 frente a la estacion de servicio",
+      "localidad":"Solis,Lavalleja",
+      "productos" :[400004,31641]
+    },
+    {
+      "id": 3,
+      "usuario": "Usuario2",
+      "nombre_usuario":"LuisS",
+      "fecha_creacion": "2023-06-21 15:45:00",
+      "fecha_entrega": null,
+      "status": "pendiente",
+      "direccion":"mevir 25320",
+      "localidad":"Migues,Canelones",
+      "productos" :[100106,334120,423,4003005,400004,101	]
+
+    },{
+      "id": 4,
+      "usuario": "Usuario1",
+      "fecha_creacion": "2023-06-19 10:00:00",
+      "fecha_entrega": "2023-06-21 14:00:00",
+      "status": "entregado",
+      "direccion":"uruguay 328",
+      "localidad":"Solis,Lavalleja",
+      "productos" :[31644,31645	]
+    },{
+      "id":5,
+      "usuario": "Usuario1",
+      "fecha_creacion": "2023-06-19 10:00:00",
+      "fecha_entrega": "",
+      "status": "cancelado",
+      "direccion":"uruguay 328",
+      "localidad":"Solis,Lavalleja",
+      "productos" :[31644,31645	]
+    }
+  ]
